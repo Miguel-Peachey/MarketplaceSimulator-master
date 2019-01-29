@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Marketplace Simulator</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nav_buy">Market</string>
+    <string name="nav_sell">Sell</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+    <string name="username">User</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="about_description">Developed by Miguel Peachey. \n\n\n\n\nMarketplace Simulator is a game based on the trade of products. Purchase items in the marketplace and sell them for profit. Items may or may not sell due to demand. Selling an item at a price not worth its value can affect the user\'s reputation. Down voting other sellers can result in their reputation lowering, too.</string>
+    <string name="browse_categories">Browse Categories</string>
+    <string name="profile_select">Select Profile Picture</string>
+    <string name="apply_changes">Apply Changes</string>
+    <string name="apply_username_changes">Apply Username Changes</string>
+    <string name="suppliers">Suppliers</string>
+    <string name="designsworkshop_description">Our company applies our best effort with delivering our vendors with quality-based clothes, finely threaded and safely packaged with care. We focus on trends and society\'s demands.</string>
+    <string name="organic_clothing_ltd">Organic Clothing Industries</string>
+    <string name="organic_description">Made from environmentally friendly Japanese silk and purely organic material, our high end clothing can fit any occasion.</string>
+    <string name="suns_description">Need to stock up on clothes fast? We have got you covered. Our wide range of stock is endless and cheap, packaged and ready to be shipped.</string>
+    <string name="string_public">Public</string>
+</resources>

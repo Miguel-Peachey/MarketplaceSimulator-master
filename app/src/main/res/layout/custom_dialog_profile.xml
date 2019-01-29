@@ -1,0 +1,91 @@
+<LinearLayout android:id="@+id/linearLayoutSelectImage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/tvBrowseCategoriesHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bfbdbd"
+        android:fontFamily="@font/nunito_sans"
+        android:paddingBottom="5dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/profile_select"
+        android:textSize="25sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ExtraText">
+
+        <ImageView
+            android:id="@+id/tvImage1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/casual_man"/>
+
+        <ImageView
+            android:id="@+id/tvImage2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/tvImage1"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/formal_man" />
+
+        <ImageView
+            android:id="@+id/tvImage3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/tvImage2"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/glasses_man" />
+
+        <ImageView
+            android:id="@+id/tvImage4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/tvImage1"
+            android:layout_marginEnd="40dp"
+            android:src="@drawable/brunette_woman" />
+
+        <ImageView
+            android:id="@+id/tvImage5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/blonde_woman"
+            android:layout_below="@id/tvImage4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="40dp"/>
+
+        <ImageView
+            android:id="@+id/tvImage6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/short_woman"
+            android:layout_below="@id/tvImage5"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/btnCloseDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="Cancel"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

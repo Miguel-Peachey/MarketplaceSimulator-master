@@ -1,0 +1,225 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.miguelpeachey.marketplacesimulator.Fragments.FashionSuppliersFragments.DesignsWorkshopFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:background="#e9dede"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/designs_workshop_logo" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="21dp"
+                android:fontFamily="@font/fresca"
+                android:text="Designs Workshop"
+                android:textColor="#b10606"
+                android:textSize="27dp" />
+
+            <TextView
+                android:id="@+id/tvUserFunds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="18dp"
+                android:text="$0"
+                android:textColor="#2f9c3c"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView"
+                android:layout_marginTop="30dp"
+                android:text="@string/designsworkshop_description"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/ivPurpleJacket"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/designs_hoodiepurple" />
+
+                    <ImageView
+                        android:id="@+id/ivOrangeJacket"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/designs_jacketorgane"
+                        android:layout_marginStart="50dp"/>
+
+                    <ImageView
+                        android:id="@+id/ivBlueJacket"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="50dp"
+                        android:src="@drawable/designs_jacketblue"/>
+
+                    <ImageView
+                        android:id="@+id/ivPoloShirt"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="50dp"
+                        android:src="@drawable/designs_polo"/>
+
+                    <ImageView
+                        android:id="@+id/ivCoat"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="50dp"
+                        android:src="@drawable/designs_coat"/>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/ivSkyBlueShorts"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="10dp"
+                            android:src="@drawable/designs_shortsblue"/>
+
+                        <ImageView
+                            android:id="@+id/ivRippedJeans"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="50dp"
+                            android:src="@drawable/designs_jeans"/>
+
+                        <ImageView
+                            android:id="@+id/ivBlackShorts"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="50dp"
+                            android:src="@drawable/designs_shortsgrey"/>
+
+                        <ImageView
+                            android:id="@+id/ivBrownPants"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="50dp"
+                            android:src="@drawable/designs_pantsbrown"/>
+
+                        <ImageView
+                            android:id="@+id/ivSweatpants"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="50dp"
+                            android:src="@drawable/designs_trousers"/>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/ivBrownBoots"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="10dp"
+                            android:src="@drawable/designs_shoeshiking" />
+
+                        <ImageView
+                            android:id="@+id/ivBlueShoes"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="50dp"
+                            android:src="@drawable/designs_shoeconverse" />
+
+                        <ImageView
+                            android:id="@+id/ivRedSneakers"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="50dp"
+                            android:src="@drawable/designs_shoered" />
+
+                        <ImageView
+                            android:id="@+id/ivFormalShoes"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="50dp"
+                            android:src="@drawable/designs_shoebrown" />
+
+                        <ImageView
+                            android:id="@+id/ivHighHeels"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="50dp"
+                            android:src="@drawable/designs_highheel" />
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>
